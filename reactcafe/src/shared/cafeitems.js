@@ -10,7 +10,7 @@ export const CAFEITEMS = [
     },
     {
       id: 1,
-      name: "White and black cup",
+      name: "White and black mug",
       image: "/assets/images/img2.jpg",
       price: 30,
       featured: false,
@@ -39,10 +39,10 @@ export const CAFEITEMS = [
       id: 4,
       name: "Yelllow and Red mugs",
       image: "/assets/images/img5.jpg",
-      price: 10,
+      price: 20,
       featured: false,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex."
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex. adipisicing elit"
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export const CAFEITEMS = [
         id: 6,
         name: "White ceramic mug",
         image: "/assets/images/img7.jpg",
-        price: 10,
+        price: 25,
         featured: false,
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit."
@@ -67,18 +67,18 @@ export const CAFEITEMS = [
         id: 7,
         name: "White and red ceramic mug",
         image: "/assets/images/img8.jpg",
-        price: 40,
+        price: 35,
         featured: false,
         description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. adipisicing elit "
       },
 
       {
         id: 8,
         name: "White ceramic cup",
         image: "/assets/images/img9.jpg",
-        price: 50,
+        price: 30,
         featured: true,
-        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex. adipisicing elit. Minima, ex.",      
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex. adipisicing elit. adipisicing elit. adipisicing elit."      
       }
 ]
