@@ -7,19 +7,19 @@ export const MENU = [
         items: [
             {
                 id: 0, 
-                text: "Veggie and Pepper Jack",
+                title: "Dark Roast",
                 price: "4.50",
                 description:"Tomato, spinach, pepper jack cheese, and egg on whole wheat or sourdough bread"
             },
             {
                 id: 1, 
-                text: "Turkey Sausage and Pepper Jack",
+                title: "Turkey Sausage and Pepper Jack",
                 price: "4.95",
                 description: "Egg, turkey, sausage and pepper jack cheese on whole wheat and sourdough bread"
             },
             {
                 id: 2, 
-                text: "Bacon and Cheddar",
+                title: "Bacon and Cheddar",
                 price: "4.95",
                 description: "Egg, bacon and chedder cheese on whole wheat bread or sourdough bread"
             }
@@ -33,13 +33,13 @@ export const MENU = [
         items: [
             {
                 id: 0, 
-                text: "Croissant Melt   ",
+                title: "Croissant Melt   ",
                 price: "4.99",
                 description:"Toasted with black forest ham, brie cheese and dijon mustard on the side"
             },
             {   
                 id: 1, 
-                text: "Croissant Scramble",
+                title: "Croissant Scramble",
                 price: "5.99",
                 description:"Two eggs and your choice of swiss or jack cheese"
             }
@@ -53,19 +53,19 @@ export const MENU = [
         items: [
             {
                 id: 0, 
-                text: "Veggie and Pepper Jack",
+                title: "Veggie and Pepper Jack",
                 price: "4.50",
                 description:"Tomato, spinach, pepper jack cheese, and egg on whole wheat or sourdough bread"
             },
             {
                 id: 1, 
-                text: "Turkey Sausage and Pepper Jack",
+                title: "Turkey Sausage and Pepper Jack",
                 price: "4.95",
                 description: "Egg, turkey, sausage and pepper jack cheese on whole wheat and sourdough bread"
             },
             {
                 id: 2, 
-                text: "Bacon and Cheddar",
+                title: "Bacon and Cheddar",
                 price: "4.95",
                 description: "Egg, bacon and chedder cheese on whole wheat bread or sourdough bread"
             }
@@ -79,31 +79,31 @@ export const MENU = [
         items: [
             {
                 id: 0, 
-                text: "Tomato and Mozzarella",
+                title: "Tomato and Mozzarella",
                 price: "6.95",
                 description:"Tomato, spinach, pesto and mozzarella cheese on whole wheat"
             },
             {
                 id: 1, 
-                text: "Turkey and Swiss Cheese",
+                title: "Turkey and Swiss Cheese",
                 price: "7.95",
                 description:"Oven-roasted turkey breast, bacon, swiss cheese, sliced red onion, tomato, mixed greens and mayo"
             },
             {
                 id: 2, 
-                text: "Ham and Swiss Cheese",
+                title: "Ham and Swiss Cheese",
                 price:"7.95",
                 description:"black forest ham, swiss cheese, sliced red onion, tomato, mixed greens and dijon"
             },
             {
                 id: 3, 
-                text: "Bacon and Tamato",
+                title: "Bacon and Tamato",
                 price:"6.95",
                 description:"Bacon, tomato, mixed greens and mayo"
             },
             {
                 id: 4, 
-                text: "What a magnificent view!",
+                title: "What a magnificent view!",
                 price:"" 
             }
         ]
@@ -116,31 +116,31 @@ export const MENU = [
         items: [
             {
                 id: 0, 
-                text: "Toasted bagel",
+                title: "Toasted bagel",
                 price: "3.25",
                 description:"With butter or cream cheese"
             },
             {
                 id: 1, 
-                text: "PBA",
+                title: "PBA",
                 price: "4.50",
                 description:"Toasted bagel topped with peanut butter, sliced apples and cinnamon"
             },
             {
                 id: 2, 
-                text: "Turkey Melt",
+                title: "Turkey Melt",
                 price: "6.25",
                 description:"Toasted bagel topped with house pesto, oven-roasted turkey and swiss cheese"
             },
             {
                 id: 3, 
-                text: "Bagel Scramble",
+                title: "Bagel Scramble",
                 price: "5.25",
                 description:"Toasted bagel with two eggs and your choice of swiss or jack cheese"
             },
             {
                 id: 4, 
-                text: "What a magnificent view!",
+                title: "What a magnificent view!",
                 price: ""
             }
         ]
@@ -153,32 +153,33 @@ export const MENU = [
         items: [
             {
                 id: 0, 
-                text: "House",
+                title: "House",
                 price: "5.95",
                 description:"Tomato, cucumber and sliced red onion on a bed of mixed green"
             },
             {
                 id: 1, 
-                text: "Spinach and Chicken",
-                price: "Grilled chicken, shredded cheese, tomato, sliced red onion, toasted walnuts and bacon on a bed of spinach" 
+                title: "Spinach and Chicken",
+                price: "7.50",
+                description:"Grilled chicken, shredded cheese, tomato, sliced red onion, toasted walnuts and bacon on a bed of spinach" 
             },
             {
                 id: 2, 
-                text: "Bleu Cheese and Chicken",
+                title: "Bleu Cheese and Chicken",
                 price: "7.50",
                 description: "Grilled chicken, bleu cheese, tomato, sliced red onion, toasted walnuts and bacon on a bed of mixed greens"
             },
             {
                 id: 3, 
-                text: "Kale",
+                title: "Kale",
                 price: "7.50",
                 description: "Kale, shaved parmesan and toasted pumpkin seeds tossed with extra virgin olive oil and fresh lemon" 
             },
             {
                 id: 4, 
-                text: "Arugula",
+                title: "Arugula",
                 price:"7.50",
-                description: "bleu cheese, apples, grapes and toasted walnuts on a bed of arugula with our tangy balsamic vinaigrette"
+                description: "Bleu cheese, apples, grapes and toasted walnuts on a bed of arugula with our tangy balsamic vinaigrette"
             }
         ]
     }

@@ -1,26 +1,22 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, CardHeader } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-function RenderMenuItems({menus}){
+
+function RenderMenu({menu}){
     return(
-        <div className="col-md-6 m-1">
+        <div className="col-md-6 col-lg-10 m-1">
             <Card>
-                <CardImg top src={menus.image}></CardImg>
+                <CardImg top src={menu.image}></CardImg>
                 <CardBody>
-                    <CardTitle>
+                    <CardHeader>
                         <div key={menu.id}>
-                            <h2>{menus.name}</h2> <br />
-                            <h3>{menus.description}</h3>
+                            <h2>{menu.name}</h2> <br />
+                            <p>{menu.description}</p>
                         </div>
-                    </CardTitle>
+                    </CardHeader>
                     <CardText> 
-                        {menus.map(menu => {
-                            return (<div key={menu.items.id}>
-                                <h3>{menu.items.text}.......................{menu.items.price} </h3> <br />
-                                <h4>{menu.items.description}</h4>
-                            </div>  )}
-                        )}
+                        <RenderItems items={menu.items}></RenderItems>
                     </CardText>
                 </CardBody>
             </Card>
@@ -28,27 +24,53 @@ function RenderMenuItems({menus}){
     )
 }
 
-function MenuItems(props) {
-    if(props.menus){
+function RenderItems({items}){
+    if(items){
         return(
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <Breadcrumb>
-                            <BreadcrumbItem><Link to="/directory">Directory</Link></BreadcrumbItem>
-                            <BreadcrumbItem active>{props.menus.name}</BreadcrumbItem>
-                        </Breadcrumb>
-                        <h2>{props.menus.name}</h2>
+            <div className="col-md-12 m-1">
+                {/* <h4> Menu Items </h4> */}
+                {items.map(item => {
+                    return (<div key={item.id}> 
+                        <h4>{item.title} ...........................  
+                         {item.price} </h4><br />
+                        {item.description}
                         <hr />
-                    </div>
-                </div>
-                <div className="row">
-                    <RenderMenuItems menus = {props.menus} />
-                </div>  
+                        </div>)}
+                    )
+                }
             </div>
-        ); 
+        );
+    };
+    
+    return(<div/>);
+}
+
+function MenuItems(props) {
+    if(props.menu){
+        return (
+           props.menu.map(menu =>{
+                    return(
+                        <div className="container">
+                            <div className="row">
+                                <div className="col">
+                                    <Breadcrumb>
+                                        <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                                        <BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
+                                        <BreadcrumbItem active>{menu.name}</BreadcrumbItem>
+                                    </Breadcrumb>
+                                </div>
+                            </div>
+                            <div className="row"> 
+                            <RenderMenu menu = {menu}  />
+                        </div>
+                    </div>
+                );
+            })
+        );
     }
+
     return (<div/>);
+
 }
 
 

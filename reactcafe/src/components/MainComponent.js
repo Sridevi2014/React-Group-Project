@@ -4,6 +4,7 @@ import MenuItems from './MenuItemsComponent';
 import { MENU } from '../shared/MenuItems';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
+
 class Main extends Component{
     constructor(props) {
         super(props);
@@ -16,19 +17,19 @@ class Main extends Component{
 
         const MenuItemWithId = ({match}) => {
             return(
-                <MenuItems menu={this.state.menus.filter(menu => menu.id === +match.params.menuItemId)}  />
+                <MenuItems menu={this.state.menus.filter(menu => menu.id === +match.params.menuItemId)} />
             );
         }
 
         return(
             <div>
                 <Switch>
-                    <Route exact path='/menu'></Route>
-                    <Route path='menu/:menuItemdId' component={MenuItems}></Route>
+                    <Route exact path='/menu'  render={() => <Menu menu={this.state.menus} />}></Route>
+                    <Route path='/menu/:menuItemId' component={MenuItemWithId} />
                 </Switch>
             </div>
-        )
-    }
+        );
+    };
 }
 
 export default Main;
