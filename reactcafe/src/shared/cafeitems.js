@@ -6,7 +6,7 @@ export const CAFEITEMS = [
       price: 20,
       featured: false,
       description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex."
+      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 1,
@@ -15,7 +15,7 @@ export const CAFEITEMS = [
       price: 30,
       featured: false,
       description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex."
+      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export const CAFEITEMS = [
       price: 20,
       featured: false,
       description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex."
+      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export const CAFEITEMS = [
       price: 25,
       featured: false,
       description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex."
+      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ export const CAFEITEMS = [
       price: 20,
       featured: false,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex. adipisicing elit"
+        "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ export const CAFEITEMS = [
       price: 20,
       featured: false,
       description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
 
     {
@@ -61,7 +61,7 @@ export const CAFEITEMS = [
         price: 25,
         featured: false,
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
       },
       {
         id: 7,
@@ -70,7 +70,7 @@ export const CAFEITEMS = [
         price: 35,
         featured: false,
         description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. adipisicing elit "
+        "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion. "
       },
 
       {
@@ -79,6 +79,6 @@ export const CAFEITEMS = [
         image: "/assets/images/img9.jpg",
         price: 30,
         featured: true,
-        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex. adipisicing elit. adipisicing elit. adipisicing elit."      
+        description:"Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion.."      
       }
 ]
