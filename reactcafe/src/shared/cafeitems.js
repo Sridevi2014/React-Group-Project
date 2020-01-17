@@ -65,8 +65,8 @@ export const CAFEITEMS = [
       },
       {
         id: 7,
-        name: "White and red ceramic mug",
-        image: "/assets/images/img8.jpg",
+        name: "White ceramic cup",
+        image: "/assets/images/img9.jpg",
         price: 35,
         featured: false,
         description:
@@ -75,8 +75,8 @@ export const CAFEITEMS = [
 
       {
         id: 8,
-        name: "White ceramic cup",
-        image: "/assets/images/img9.jpg",
+        name: "White and red ceramic mug",
+        image: "/assets/images/img8.jpg",
         price: 30,
         featured: true,
         description:"Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion.."      
