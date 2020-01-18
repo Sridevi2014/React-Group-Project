@@ -3,25 +3,43 @@ export const MENU = [
         id: 0,
         name:'Coffee',
         image: 'assets/images/',
-        description: "All Breakfast Sandwhiches will be served with your choice of fresh bowl of fruit or hashbrown",
+        description: "Please enjoy our special blend of coffee",
         items: [
             {
                 id: 0, 
                 title: "Dark Roast",
-                price: "4.50",
-                description:"Tomato, spinach, pepper jack cheese, and egg on whole wheat or sourdough bread"
+                price: "3.00",
+                description:"Essential blend of flavors"
             },
             {
                 id: 1, 
-                title: "Turkey Sausage and Pepper Jack",
-                price: "4.95",
-                description: "Egg, turkey, sausage and pepper jack cheese on whole wheat and sourdough bread"
+                title: "Espresso",
+                price: "3.00",
+                description:"Shots of Espresso"
             },
             {
                 id: 2, 
-                title: "Bacon and Cheddar",
-                price: "4.95",
-                description: "Egg, bacon and chedder cheese on whole wheat bread or sourdough bread"
+                title: "Americano",
+                price: "3.50",
+                description: "One part espresso, two parts water"
+            },
+            {
+                id: 3, 
+                title: "Cappucino",
+                price: "4.50",
+                description: "Equal parts espresso, steamed milk, and foam"
+            },
+            {
+                id: 4, 
+                title: "Latte",
+                price: "4.50",
+                description:"One part espresso filled with steamed milk"
+            },
+            {
+                id: 5, 
+                title: "French Press",
+                price: "5.00",
+                description:"Choose from any of our local estate beans"
             }
         ]
     },   
@@ -100,11 +118,6 @@ export const MENU = [
                 title: "Bacon and Tamato",
                 price:"6.95",
                 description:"Bacon, tomato, mixed greens and mayo"
-            },
-            {
-                id: 4, 
-                title: "What a magnificent view!",
-                price:"" 
             }
         ]
     },
