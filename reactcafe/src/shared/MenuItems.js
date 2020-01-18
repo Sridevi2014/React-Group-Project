@@ -2,7 +2,7 @@ export const MENU = [
     {
         id: 0,
         name:'Coffee',
-        image: "/asseets/images/Coffee.jpg",
+        image: "/assets/images/Coffee.jpg",
         altimage: "Photo by Nathan Dumlao on Unsplash",
         description: "Please enjoy our special blend of coffee",
         items: [
@@ -47,7 +47,7 @@ export const MENU = [
     {
         id: 1,
         name: 'Drinks',
-        image: "/asseets/images/tea.jpg",
+        image: "/assets/images/tea.jpg",
         altimage: "Photo by Eiliv-Sonas Aceron on Unsplash",
         description: "Please enjoy our speciality drinks",
         items: [
@@ -80,7 +80,7 @@ export const MENU = [
     {
         id: 2,
         name:'Breakfast Sandwiches',
-        image: "/asseets/images/Breakfastsandwich.jpg",
+        image: "/assets/images/Breakfastsandwich.jpg",
         altimage:"Photo by Hans Vivek on Unsplash",
         description: "All Breakfast Sandwhiches will be served with your choice of fresh bowl of fruit or hashbrown",
         items: [
@@ -107,7 +107,7 @@ export const MENU = [
     {
         id: 3,
         name:'Grilled Lunch Sandwiches',
-        image: "/asseets/images/GrilledSandwich.jpg",
+        image: "/assets/images/GrilledSandwich.jpg",
         altimage: "Photo by Ellieelien on Unsplash",
         description: "All lunch sandwiches will be served with your choice of chips or soup of the day",
         items: [
@@ -140,7 +140,7 @@ export const MENU = [
     {
         id: 4,
         name:'Bagels',
-        image: "/asseets/images/Bagels.jpg",
+        image: "/assets/images/Bagels.jpg",
         altimage: "Photo by Tara Evans on Unsplash",
         description: "All bagels will be served with your choice of a fresh bowl of fruit or hashbrown",
         items: [
@@ -173,7 +173,7 @@ export const MENU = [
     {
         id: 5,
         name:'Salads',
-        image: "/asseets/images/Salad.jpg",
+        image: "/assets/images/Salad.jpg",
         altimage: "Photo by Melissa Walker Horn on Unsplash",
         description: "Served with your choice of salad dressing",
         items: [
