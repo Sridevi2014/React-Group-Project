@@ -1,27 +1,29 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, CardHeader } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, Breadcrumb, BreadcrumbItem, CardHeader } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
 function RenderMenu({menu}){
     return(
-        <div className="col-md-6 col-lg-10 m-1">
-            <Card>
-                <CardImg top src={menu.image}></CardImg>
-                <CardBody>
-                    <CardHeader>
-                        <div key={menu.id}>
-                            <h2>{menu.name}</h2> <br />
-                            <p>{menu.description}</p>
-                        </div>
-                    </CardHeader>
-                    <CardText> 
-                        <RenderItems items={menu.items}></RenderItems>
-                    </CardText>
-                </CardBody>
-            </Card>
-        </div>
-    )
+        <React.Fragment>
+           <div className="col-md-3"></div>
+            <div className="col-md-6 m-1">
+                <Card>
+                    <CardImg top src={menu.image} alt={menu.altimage} width="100%"></CardImg>
+                    <CardBody>
+                        <CardHeader>
+                            <div key={menu.id}>
+                                <h2>{menu.name}</h2> <br />
+                                <p>{menu.description}</p>
+                            </div>
+                        </CardHeader>
+                            <RenderItems items={menu.items}></RenderItems>
+                    </CardBody>
+                </Card>
+            </div>
+            <div className="col-md-3"></div>
+        </React.Fragment>
+    );
 }
 
 function RenderItems({items}){
@@ -32,7 +34,7 @@ function RenderItems({items}){
                 {items.map(item => {
                     return (<div key={item.id}> 
                         <h4>{item.title} ...........................  
-                         {item.price} </h4><br />
+                         {item.price}</h4><br />
                         {item.description}
                         <hr />
                         </div>)}

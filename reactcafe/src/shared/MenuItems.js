@@ -2,7 +2,8 @@ export const MENU = [
     {
         id: 0,
         name:'Coffee',
-        image: 'assets/images/',
+        image: "/asseets/images/Coffee.jpg",
+        altimage: "Photo by Nathan Dumlao on Unsplash",
         description: "Please enjoy our special blend of coffee",
         items: [
             {
@@ -45,28 +46,42 @@ export const MENU = [
     },   
     {
         id: 1,
-        name: 'Croissants',
-        image: 'assets/images/',
-        description: "All Croissants will be served with your choice of fresh bowl of fruit or hashbrown",
+        name: 'Drinks',
+        image: "/asseets/images/tea.jpg",
+        altimage: "Photo by Eiliv-Sonas Aceron on Unsplash",
+        description: "Please enjoy our speciality drinks",
         items: [
             {
                 id: 0, 
-                title: "Croissant Melt   ",
-                price: "4.99",
-                description:"Toasted with black forest ham, brie cheese and dijon mustard on the side"
+                title: "Organic Teas",
+                price: "3.50",
+                description:"Choose from any of the following: British Breakfast, Earl Grey, Green"
             },
             {   
                 id: 1, 
-                title: "Croissant Scramble",
-                price: "5.99",
-                description:"Two eggs and your choice of swiss or jack cheese"
+                title: "Herbal Teas",
+                price: "3.50",
+                description:"Choose from any of the following: Good Hope Vanilla, Mint, Chamomile Lemon"
+            },
+            {
+                id: 2 , 
+                title: "Hot Chocolate",
+                price: "3.00",
+                description: "Try our special blend"
+            },
+            {   
+                id: 3, 
+                title: "Chai Tea Latte  ",
+                price: "3.50",
+                description:"Spiced tea and milk"
             }
         ]
     },
     {
         id: 2,
         name:'Breakfast Sandwiches',
-        image: 'assets/images/',
+        image: "/asseets/images/Breakfastsandwich.jpg",
+        altimage:"Photo by Hans Vivek on Unsplash",
         description: "All Breakfast Sandwhiches will be served with your choice of fresh bowl of fruit or hashbrown",
         items: [
             {
@@ -92,7 +107,8 @@ export const MENU = [
     {
         id: 3,
         name:'Grilled Lunch Sandwiches',
-        image: 'assets/images/',
+        image: "/asseets/images/GrilledSandwich.jpg",
+        altimage: "Photo by Ellieelien on Unsplash",
         description: "All lunch sandwiches will be served with your choice of chips or soup of the day",
         items: [
             {
@@ -124,8 +140,9 @@ export const MENU = [
     {
         id: 4,
         name:'Bagels',
-        image: 'assets/images/redux-woods.jpg',
-        description: "All bagels will be served with your choice of fresh bowl of fruit or hashbrown",
+        image: "/asseets/images/Bagels.jpg",
+        altimage: "Photo by Tara Evans on Unsplash",
+        description: "All bagels will be served with your choice of a fresh bowl of fruit or hashbrown",
         items: [
             {
                 id: 0, 
@@ -150,18 +167,14 @@ export const MENU = [
                 title: "Bagel Scramble",
                 price: "5.25",
                 description:"Toasted bagel with two eggs and your choice of swiss or jack cheese"
-            },
-            {
-                id: 4, 
-                title: "What a magnificent view!",
-                price: ""
             }
         ]
     },
     {
         id: 5,
         name:'Salads',
-        image: 'assets/images/',
+        image: "/asseets/images/Salad.jpg",
+        altimage: "Photo by Melissa Walker Horn on Unsplash",
         description: "Served with your choice of salad dressing",
         items: [
             {

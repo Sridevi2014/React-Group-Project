@@ -9,7 +9,9 @@ function RenderMenu({menu}){
             <Link to={`/menu/${menu.id}`}>
             <CardImg width="100%" src={menu.image} alt={menu.name} />
             <CardBody>
-                <CardTitle>{menu.name}</CardTitle>
+                <CardTitle>
+                    <h3>{menu.name}</h3>
+                </CardTitle>
             </CardBody>
             </Link>
         </Card>
