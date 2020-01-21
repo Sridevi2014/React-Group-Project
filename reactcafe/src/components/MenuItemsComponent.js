@@ -1,28 +1,21 @@
 import React from 'react';
-import { Card, CardImg, CardBody, Breadcrumb, BreadcrumbItem, CardHeader } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
 function RenderMenu({menu}){
     return(
         <React.Fragment>
-           <div className="col-md-2"></div>
-            <div className="col-md-8">
-                <Card>
-                    <CardImg top src={menu.image} alt={menu.altimage} width="100%"></CardImg>
-                    <CardBody>
-                        <CardHeader>
-                            <div key={menu.id}>
-                                <h1>{menu.name}</h1>
-                                <p>{menu.description}</p>
-                            </div>
-                        </CardHeader>
-                            <RenderItems items={menu.items}></RenderItems>
-                    </CardBody>
-                </Card>
-            </div>
-            <div className="col-md-2"></div>
-        </React.Fragment>
+             <Media object className="col-8 col-md-4 ml-5" src={menu.image} alt={menu.altimage} width="300px" height="400px"/>
+               <Media body className="col-8 col-md-6 ml-5 mb-4">
+                    <Media heading >
+                        {menu.name}
+                    </Media>
+                    {menu.description}
+                    <br />                
+                 <RenderItems items={menu.items}></RenderItems>
+              </Media>
+            </React.Fragment>
     );
 }
 
@@ -30,11 +23,10 @@ function RenderItems({items}){
     if(items){
         return(
             <div className="col-md-12 m-1">
-                {/* <h4> Menu Items </h4> */}
                 {items.map(item => {
                     return (<div key={item.menuid}> 
                         <h4>{item.title} </h4>
-                        <h5> {item.price}</h5>
+                        <p> {item.price}</p>
                         {item.description}
                         <hr />
                         </div>)}
@@ -63,7 +55,7 @@ function MenuItems(props) {
                                 </div>
                             </div>
                             <div className="row"> 
-                            <RenderMenu menu = {menu}  />
+                                <RenderMenu menu = {menu}  />
                         </div>
                     </div>
                 );

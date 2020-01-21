@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron} from 'reactstrap';
+import {Nav, Navbar, NavbarToggler, Collapse, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -24,7 +24,7 @@ class Header extends Component {
     render() {
         return(
             <React.Fragment>
-                 <Navbar dark sticky="top" expand="md">
+                 <Navbar light sticky="top" expand="md">
                     <div className="container">
                         <div className="col-6 col-md-4">
                             <h2>React Cafe</h2>

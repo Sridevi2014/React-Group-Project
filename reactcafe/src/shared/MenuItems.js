@@ -1,10 +1,10 @@
 export const MENU = [
     {
        id: 0,
-        name:'Coffee',
+        name:'COFFEE',
         image: "/assets/images/Coffee.jpg",
-        altimage: "Photo by Tyler Nix on Unsplash",
-        description: "Please enjoy our special blend of coffee",
+        altimage: "Photo by Nathan Dumlao on Unsplash",
+        description: "Your choice of  our special blends of coffee",
         items: [
             {
                 menuid: 0, 
@@ -46,9 +46,9 @@ export const MENU = [
     },   
     {
         id: 1,
-        name: 'Drinks',
+        name: 'DRINKS',
         image: "/assets/images/tea.jpg",
-        altimage: "Photo by Eiliv-Sonas Aceron on Unsplash",
+        altimage: "Photo by Food Photographer | Jennifer Pallian on Unsplash",
         description: "Please enjoy our speciality drinks",
         items: [
             {
@@ -79,10 +79,10 @@ export const MENU = [
     },
     {
         id: 2,
-        name:'Breakfast Sandwiches',
+        name:'BREAKFAST SANDWICHES',
         image: "/assets/images/Breakfastsandwich.jpg",
-        altimage:"Photo by Hans Vivek on Unsplash",
-        description: "All Breakfast Sandwhiches will be served with your choice of fresh bowl of fruit or hashbrown",
+        altimage:"Photo by Duncan Kidd on Unsplash",
+        description: "Served with your choice of fresh fruit or hashbrown",
         items: [
             {
                 menuid: 0, 
@@ -106,43 +106,10 @@ export const MENU = [
     },
     {
         id: 3,
-        name:'Grilled Lunch Sandwiches',
-        image: "/assets/images/GrilledSandwich.jpg",
-        altimage: "Photo by Ellieelien on Unsplash",
-        description: "All lunch sandwiches will be served with your choice of chips or soup of the day",
-        items: [
-            {
-                menuid: 0, 
-                title: "Tomato and Mozzarella",
-                price: "6.95",
-                description:"Tomato, spinach, pesto and mozzarella cheese on whole wheat"
-            },
-            {
-                menuid: 1, 
-                title: "Turkey and Swiss Cheese",
-                price: "7.95",
-                description:"Oven-roasted turkey breast, bacon, swiss cheese, sliced red onion, tomato, mixed greens and mayo"
-            },
-            {
-                menuid: 2, 
-                title: "Ham and Swiss Cheese",
-                price:"7.95",
-                description:"black forest ham, swiss cheese, sliced red onion, tomato, mixed greens and dijon"
-            },
-            {
-                menuid: 3, 
-                title: "Bacon and Tamato",
-                price:"6.95",
-                description:"Bacon, tomato, mixed greens and mayo"
-            }
-        ]
-    },
-    {
-        id: 4,
-        name:'Bagels',
+        name:'BAGELS',
         image: "/assets/images/Bagels.jpg",
-        altimage: "Photo by Tara Evans on Unsplash",
-        description: "All bagels will be served with your choice of a fresh bowl of fruit or hashbrown",
+        altimage: "",
+        description: "Served with fresh fruit",
         items: [
             {
                 menuid: 0, 
@@ -171,10 +138,43 @@ export const MENU = [
         ]
     },
     {
+        id: 4,
+        name:'LUNCH SANDWICHES',
+        image: "/assets/images/LunchSandwich.jpg",
+        altimage: "Photo by Eiliv-Sonas Aceron on Unsplash",
+        description: "Served with your choice of chips or soup of the day",
+        items: [
+            {
+                menuid: 0, 
+                title: "Tomato and Mozzarella",
+                price: "6.95",
+                description:"Tomato, spinach, pesto and mozzarella cheese on whole wheat"
+            },
+            {
+                menuid: 1, 
+                title: "Turkey and Swiss Cheese",
+                price: "7.95",
+                description:"Oven-roasted turkey breast, bacon, swiss cheese, sliced red onion, tomato, mixed greens and mayo"
+            },
+            {
+                menuid: 2, 
+                title: "Ham and Swiss Cheese",
+                price:"7.95",
+                description:"black forest ham, swiss cheese, sliced red onion, tomato, mixed greens and dijon"
+            },
+            {
+                menuid: 3, 
+                title: "Bacon and Tomato",
+                price:"6.95",
+                description:"Bacon, tomato, mixed greens and mayo"
+            }
+        ]
+    },
+    {
         id: 5,
-        name:'Salads',
+        name:'SALADS',
         image: "/assets/images/Salad.jpg",
-        altimage: "Photo by Melissa Walker Horn on Unsplash",
+        altimage: "Photo by Katka Pavlickova on Unsplash",
         description: "Served with your choice of salad dressing",
         items: [
             {
