@@ -1,12 +1,12 @@
 export const CAFEITEMS = [
     {
       id: 0,
-      name: "Starbucks ceramic mugs",
+      name: "Starbucks ceramic Cups",
       image: "/assets/images/img1.jpg",
       price: 20,
       featured: false,
       description:
-      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
+      "Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 1,
@@ -19,30 +19,30 @@ export const CAFEITEMS = [
     },
     {
       id: 2,
-      name: "Orange and white mugs",
+      name: "Orange and white Cups",
       image: "/assets/images/img3.jpg",
       price: 20,
       featured: false,
       description:
-      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
+      "Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 3,
-      name: "Blue Eiffel Tower mugs",
+      name: "Blue Eiffel Tower Cup",
       image: "/assets/images/img4.jpg",
       price: 25,
       featured: false,
       description:
-      "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
+      "Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 4,
-      name: "Yelllow and Red mugs",
+      name: "Yelllow and Red Cups",
       image: "/assets/images/img5.jpg",
       price: 20,
       featured: false,
       description:
-        "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
+        "Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion."
     },
     {
       id: 5,
@@ -70,7 +70,7 @@ export const CAFEITEMS = [
         price: 35,
         featured: false,
         description:
-        "Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion. "
+        "Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion. "
       },
 
       {
@@ -79,6 +79,6 @@ export const CAFEITEMS = [
         image: "/assets/images/img8.jpg",
         price: 30,
         featured: true,
-        description:"Cups are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion.."      
+        description:"Mugs are both casual and sophisticated! Classic round stoneware mugs complement any decor and any occasion.."      
       }
 ]

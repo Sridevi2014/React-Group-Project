@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import { CAFEITEMS } from '../shared/cafeitems';
 import Products from './ProductsComponent';
 
+
 class Main extends Component {
     constructor(props) {
         super(props);

@@ -39,6 +39,8 @@
   }
 }
 
+
+
 .card {
   width: 300px;
   margin-top: 10px;
@@ -49,4 +51,5 @@
  h1, .card-title {
   font-family: "Lobster", cursive;
 } 
+
 

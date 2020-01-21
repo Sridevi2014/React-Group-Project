@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, CardImg, CardTitle, CardBody , CardText,  Breadcrumb, BreadcrumbItem} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Card, CardImg, CardTitle, CardBody , CardText,} from 'reactstrap';
+
 
 function RenderProduct({ cafeitem }) {
     return (
@@ -30,11 +30,7 @@ function Product(props) {
     return (
         <div className="container">
             <div className="row">
-                <div className="col"> 
-                <Breadcrumb>
-                        <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                        <BreadcrumbItem active>Products</BreadcrumbItem>
-                    </Breadcrumb>     
+            <div className="col">                
                     <h1 align="center">Cafe Items</h1>
                     <hr />
                 </div>
