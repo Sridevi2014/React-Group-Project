@@ -14,7 +14,7 @@ function RenderMenu({menu}){
                 </CardTitle>
             </CardBody>
             </Link>
-        </Card>
+        </Card> 
     );
 }
 

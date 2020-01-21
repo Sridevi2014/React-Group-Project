@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from './HeaderComponent';
+import Footer from './FooterComponent'
 import Menu from './MenuComponent';
 import MenuItems from './MenuItemsComponent';
 import { MENU } from '../shared/MenuItems';
@@ -23,10 +25,12 @@ class Main extends Component{
 
         return(
             <div>
+                <Header />
                 <Switch>
                     <Route exact path='/menu'  render={() => <Menu menu={this.state.menus} />}></Route>
                     <Route path='/menu/:menuItemId' component={MenuItemWithId} />
                 </Switch>
+                <Footer />
             </div>
         );
     };

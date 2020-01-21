@@ -1,19 +1,19 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, Breadcrumb, BreadcrumbItem, CardHeader } from 'reactstrap';
+import { Card, CardImg, CardBody, Breadcrumb, BreadcrumbItem, CardHeader } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
 function RenderMenu({menu}){
     return(
         <React.Fragment>
-           <div className="col-md-3"></div>
-            <div className="col-md-6 m-1">
+           <div className="col-md-2"></div>
+            <div className="col-md-8">
                 <Card>
                     <CardImg top src={menu.image} alt={menu.altimage} width="100%"></CardImg>
                     <CardBody>
                         <CardHeader>
                             <div key={menu.id}>
-                                <h2>{menu.name}</h2> <br />
+                                <h1>{menu.name}</h1>
                                 <p>{menu.description}</p>
                             </div>
                         </CardHeader>
@@ -21,7 +21,7 @@ function RenderMenu({menu}){
                     </CardBody>
                 </Card>
             </div>
-            <div className="col-md-3"></div>
+            <div className="col-md-2"></div>
         </React.Fragment>
     );
 }
@@ -32,9 +32,9 @@ function RenderItems({items}){
             <div className="col-md-12 m-1">
                 {/* <h4> Menu Items </h4> */}
                 {items.map(item => {
-                    return (<div key={item.id}> 
-                        <h4>{item.title} ...........................  
-                         {item.price}</h4><br />
+                    return (<div key={item.menuid}> 
+                        <h4>{item.title} </h4>
+                        <h5> {item.price}</h5>
                         {item.description}
                         <hr />
                         </div>)}
@@ -52,7 +52,7 @@ function MenuItems(props) {
         return (
            props.menu.map(menu =>{
                     return(
-                        <div className="container">
+                        <div className="container" key={menu.id}>
                             <div className="row">
                                 <div className="col">
                                     <Breadcrumb>
