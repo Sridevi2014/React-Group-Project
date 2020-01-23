@@ -5,13 +5,16 @@ import Menu from './MenuComponent';
 import MenuItems from './MenuItemsComponent';
 import { MENU } from '../shared/MenuItems';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import { CAFEITEMS } from '../shared/cafeitems';
+import Products from './ProductsComponent';
 
 
 class Main extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            menus: MENU
+            menus: MENU, 
+            cafeitems: CAFEITEMS       
         };
     }
 
@@ -29,6 +32,7 @@ class Main extends Component{
                 <Switch>
                     <Route exact path='/menu'  render={() => <Menu menu={this.state.menus} />}></Route>
                     <Route path='/menu/:menuItemId' component={MenuItemWithId} />
+                    <Route exact path='/products' render={() => <Products cafeitems={this.state.cafeitems}  />} />  
                 </Switch>
                 <Footer />
             </div>
